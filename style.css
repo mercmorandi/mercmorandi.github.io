@@ -1,0 +1,136 @@
+/* Body Styling */
+body {
+    background-color: #0a192f;
+    color: #8892b0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  /* Sidebar Styling */
+  nav {
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #8892b0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 40%; /* Sidebar takes 40% of the width */
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    padding: 20px 10px;
+  }
+
+  nav h1, nav h2 {
+    text-align: left;
+    margin: 0;
+  }
+
+  nav h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  nav h2 {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: white;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+
+  nav ul li {
+    margin: 20px 0;
+  }
+
+  nav ul li a {
+    color: #8892b0;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  nav ul li a:hover {
+    color: #64ffda;
+  }
+
+  nav p {
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+
+  .social-icons a:hover {
+    color: #00aced;
+  }
+
+  /* Section Styling */
+  section {
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+  }
+
+  section p {
+    font-size: 1.2rem;
+  }
+
+  #about {
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+  }
+
+  #experience {
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+  }
+
+  #projects {
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+  }
+
+  #contact {
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+  }
+
+  /* Smooth Scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Highlight Layer */
+  .highlight {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Make it unclickable */
+    background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.1), transparent 300px);
+    mix-blend-mode: screen;
+    transition: background-position 0.1s;
+  }
