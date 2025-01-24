@@ -41,22 +41,6 @@
           </span>
           </a>
         </li>
-        <li>
-          <a class="nav-indicator group flex items-center py-3 text-slate-500" href="#projects">
-            <span class="mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-            <span class="text-xs font-bold uppercase tracking-widest group-hover:text-slate-200 group-focus-visible:text-slate-200">
-            projects
-          </span>
-          </a>
-        </li>
-        <li>
-          <a class="nav-indicator group flex items-center py-3 text-slate-500" href="#contact">
-            <span class="mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-            <span class="text-xs font-bold uppercase tracking-widest group-hover:text-slate-200 group-focus-visible:text-slate-200">
-            contact
-          </span>
-          </a>
-        </li>
       </ul>
     </nav>
     <div class="flex mt-8 items-end text-2xl h-full">
@@ -70,7 +54,7 @@
   </header>
   <main class="pt-24 lg:w-[52%] lg:py-24">
     <section class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" id="about">
-      <h2 class="lg:hidden text-lg font-bold uppercase tracking-widest text-white mb-4">About</h2>
+      <h2 class="lg:hidden sticky top-0 bg-slate-900 py-3 text-lg font-bold uppercase tracking-widest text-white mb-4">About</h2>
       <p>I'm a software engineer passionate about building maintainable and efficient software solutions.
         With a strong focus on backend development, I believe that <a class="hover:text-teal-300 text-white" href="https://en.wikipedia.org/wiki/KISS_principle" target="_blank">simplicity</a> is the key to creating clear, reliable systems that are easy to evolve over time.<br><br>
         I approach software design with methodologies like
@@ -81,6 +65,7 @@
         Let's connect and build something amazing together!</p>
     </section>
     <section class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" id="experience">
+      <h2 class="lg:hidden sticky top-0 bg-slate-900 py-3 text-lg font-bold uppercase tracking-widest text-white mb-4"">Experience</h2>
       <ul>
         <li class="group hover:bg-slate-800 hover:rounded-lg hover:cursor-pointer">
           <a href="https://www.enerbrain.com/" target="_blank">
@@ -123,69 +108,110 @@
               <div class="flex flex-wrap">
                 <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm items-center">Python</span>
                 <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">FastAPI</span>
+                <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">Flask</span>
                 <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">SQLAlchemy</span>
+                <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">PostgreSQL</span>
                 <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">MongoDB</span>
                 <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">Auth0</span>
                 <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">AWS</span>
+                <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">Docker</span>
+                <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">CI/CD</span>
               </div>
             </div>
           </div>
         </a>
         </li>
-        <li>
-          <div class="lg:flex p-3 text-justify">
-            <span class="text-xs font-bold uppercase text-slate-500 md:basis-1/4 sm:w-full">2022 - current</span>
+        <li class="group hover:bg-slate-800 hover:rounded-lg hover:cursor-pointer">
+          <a href="https://www.tonicminds.com/" target="_blank">
+          <div class="lg:flex p-3">
+            <span class="text-xs font-bold uppercase text-slate-500 md:basis-1/4 sm:w-full">Mar 2021 - Oct 2021</span>
             <div class="lg:basis-3/4">
-              <h2 class="text-lg font-medium text-slate-200 sm:text-xl inline-block">Backend Engineer</h2>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio iure necessitatibus, dicta laborum accusamus quia similique magnam, fugit a repudiandae nisi mollitia.
-                Culpa quibusdam mollitia corporis unde, ducimus nam sit? Ea autem veniam quam error, sapiente asperiores, perferendis, doloribus consequuntur nemo accusantium vel nam
-                dicta vero nihil eum sit ad quis. Doloribus autem,culpa sapiente ratione iure soluta blanditiis dolores!</p>
+              <h2 class="flex text-lg font-medium text-slate-200 sm:text-xl mb-2 group-hover:text-teal-300">Backend Engineer · TonicMinds
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="transition size-5 mt-1.5 ml-2 group-hover:translate-x-1 group-hover:-translate-y-1">
+                  <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 0 0 1.06 0l7.22-7.22v5.69a.75.75 0 0 0 1.5 0v-7.5a.75.75 0 0 0-.75-.75h-7.5a.75.75 0 0 0 0 1.5h5.69l-7.22 7.22a.75.75 0 0 0 0 1.06Z" clip-rule="evenodd" />
+                </svg>   
+              </h2>
+              <ul>
+                <li class="mb-3">
+                  <p>Implemented and optimized features of a platform aimed at providing
+                    transparency and traceability of data within the supply chain using GS1
+                    standards such as Electronic Product Code Information Services (EPCIS)</p>
+                </li>
+              </ul>
+              <div class="flex flex-wrap">
+                <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm items-center">Python</span>
+                <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">FastAPI</span>
+                <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">MongoDB</span>
+                <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">RabbitMQ</span>
+                <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">Kafka</span>
+                <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">Faust</span>
+                <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">Docker</span>
+              </div>
             </div>
           </div>
+        </a>
         </li>
-        <li>
-          <div class="lg:flex p-3 text-justify">
-            <span class="text-xs font-bold uppercase text-slate-500 md:basis-1/4 sm:w-full">2022 - current</span>
+        <li class="group hover:bg-slate-800 hover:rounded-lg hover:cursor-pointer">
+          <a href="https://it.wikipedia.org/wiki/Oval_Money" target="_blank">
+          <div class="lg:flex p-3">
+            <span class="text-xs font-bold uppercase text-slate-500 md:basis-1/4 sm:w-full">Nov 2020 - Mar 2021</span>
             <div class="lg:basis-3/4">
-              <h2 class="text-lg font-medium text-slate-200 sm:text-xl mb-2">Backend Engineer</h2>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio iure necessitatibus, dicta laborum accusamus quia similique magnam, fugit a repudiandae nisi mollitia.
-                Culpa quibusdam mollitia corporis unde, ducimus nam sit? Ea autem veniam quam error, sapiente asperiores, perferendis, doloribus consequuntur nemo accusantium vel nam
-                dicta vero nihil eum sit ad quis. Doloribus autem,culpa sapiente ratione iure soluta blanditiis dolores!</p>
+              <h2 class="flex text-lg font-medium text-slate-200 sm:text-xl mb-2 group-hover:text-teal-300">Junior Data Engineer · Oval Money
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="transition size-5 mt-1.5 ml-2 group-hover:translate-x-1 group-hover:-translate-y-1">
+                  <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 0 0 1.06 0l7.22-7.22v5.69a.75.75 0 0 0 1.5 0v-7.5a.75.75 0 0 0-.75-.75h-7.5a.75.75 0 0 0 0 1.5h5.69l-7.22 7.22a.75.75 0 0 0 0 1.06Z" clip-rule="evenodd" />
+                </svg>   
+              </h2>
+              <ul>
+                <li class="mb-3">
+                  <p>Conducted research to develop a service aimed at mitigating SEPA Direct
+                    Debit (SDD) fraud, addressing critical risks to the company's business.</p>
+                </li>
+              </ul>
+              <div class="flex flex-wrap">
+                <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm items-center">Python</span>
+                <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">Flask</span>
+                <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">PostgreSQL</span>
+                <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">ETL</span>
+                <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">Docker</span>
+              </div>
             </div>
           </div>
+        </a>
         </li>
-        <li>
-          <div class="lg:flex p-3 text-justify">
-            <span class="text-xs font-bold uppercase text-slate-500 md:basis-1/4 sm:w-full">2022 - current</span>
+        <li class="group hover:bg-slate-800 hover:rounded-lg hover:cursor-pointer">
+          <a href="https://doppiozero.to/" target="_blank">
+          <div class="lg:flex p-3">
+            <span class="text-xs font-bold uppercase text-slate-500 md:basis-1/4 sm:w-full">2019 - 2020</span>
             <div class="lg:basis-3/4">
-              <h2 class="text-lg font-medium text-slate-200 sm:text-xl mb-2">Backend Engineer</h2>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio iure necessitatibus, dicta laborum accusamus quia similique magnam, fugit a repudiandae nisi mollitia.
-                Culpa quibusdam mollitia corporis unde, ducimus nam sit? Ea autem veniam quam error, sapiente asperiores, perferendis, doloribus consequuntur nemo accusantium vel nam
-                dicta vero nihil eum sit ad quis. Doloribus autem,culpa sapiente ratione iure soluta blanditiis dolores!</p>
+              <h2 class="flex text-lg font-medium text-slate-200 sm:text-xl mb-2 group-hover:text-teal-300">Backend Engineer · Doppiozero
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="transition size-5 mt-1.5 ml-2 group-hover:translate-x-1 group-hover:-translate-y-1">
+                  <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 0 0 1.06 0l7.22-7.22v5.69a.75.75 0 0 0 1.5 0v-7.5a.75.75 0 0 0-.75-.75h-7.5a.75.75 0 0 0 0 1.5h5.69l-7.22 7.22a.75.75 0 0 0 0 1.06Z" clip-rule="evenodd" />
+                </svg>   
+              </h2>
+              <ul>
+                <li class="mb-3">
+                  <p>Developed multiple eCommerce sites using Oscar, a Django-based
+                    framework tailored for eCommerce applications</p>
+                </li>
+                <li class="mb-3">
+                  <p>Integrated two new payment gateways, in addition to PayPal, into multiple
+                    eCommerce sites for many clients</p>
+                </li>
+              </ul>
+              <div class="flex flex-wrap">
+                <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm items-center">Python</span>
+                <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">Django</span>
+                <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">MySQL</span>
+                <span class="mr-1.5 mt-2 px-3 py-1 rounded-full bg-teal-400/10 text-teal-300 opacity-110 text-sm">Docker</span>
+              </div>
             </div>
           </div>
+        </a>
         </li>
         
       </ul>
     </section>
-    <section  class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" id="projects">
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto necessitatibus voluptas quia, explicabo soluta, at optio totam veritatis ab temporibus nostrum? Id deleniti tempore enim. Ipsum consequatur saepe vitae delectus.
-      Pariatur, architecto itaque culpa harum possimus quos aspernatur laudantium quis placeat est distinctio eius eligendi mollitia tempore ratione neque alias, exercitationem nostrum qui ipsam voluptate expedita voluptatum. Rerum, repellendus beatae?
-      Animi eligendi dicta voluptas quis quibusdam, molestiae dignissimos quo blanditiis at ullam ipsum maxime repellat recusandae inventore beatae dolores tempore corrupti necessitatibus amet. Fugit delectus aperiam aspernatur magnam qui natus.
-      Nisi distinctio repellendus ab dicta, repellat soluta modi facilis sunt perferendis omnis odio tempora aliquid magni pariatur eaque voluptas et quod consequatur illum voluptate quasi deleniti accusantium saepe consectetur. Iste?</p>
-    </section>
-    <section class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" id="contact">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure fuga exercitationem, impedit, doloribus saepe rem repellendus vel asperiores earum dignissimos mollitia dolore quae alias minus consectetur reprehenderit excepturi esse corrupti.
-      Esse perferendis nulla eos beatae quia obcaecati deserunt facere, totam corrupti tenetur officia nobis. Eveniet iure, dolorum atque quidem omnis, mollitia repellat, perferendis voluptatem officia qui saepe neque deserunt. Distinctio?
-      Ipsam aut nihil repellat dignissimos? Quae corrupti expedita sit consectetur, perferendis omnis dicta ducimus similique voluptates error unde molestiae! Ipsa dolores quibusdam laboriosam eos harum rem temporibus facilis reprehenderit aperiam?
-      Accusantium earum incidunt saepe ad! Eveniet repudiandae eius libero quisquam, necessitatibus fugit minima earum voluptate ratione nemo veritatis culpa dicta quam reiciendis amet eaque. Eveniet fuga dolores at non odit!
-      Sapiente neque quod doloribus. Molestiae eos alias blanditiis reprehenderit quod! Sequi est nobis, voluptate nam libero eveniet totam quo perspiciatis accusantium impedit? Quidem illo porro debitis ab natus, a facere!
-      Veniam dolores itaque tempore voluptatum et, placeat in ex quis quas eius ut adipisci unde, aliquid quae est corrupti, doloremque provident ratione exercitationem odit fuga! Eveniet repellendus quod dolor. Eum!
-      Omnis suscipit amet natus, aperiam ipsam quae saepe. Veritatis, numquam quisquam! Maxime fuga quo blanditiis quibusdam corrupti unde totam minus, at sed soluta. Alias nihil nam, sunt tempora numquam nobis.
-      Porro repellat, unde mollitia nostrum repudiandae, ut quia iusto animi optio pariatur ex quis odit dignissimos quisquam quam neque consequuntur. Ipsa alias asperiores magnam quas nisi praesentium aspernatur facere optio!
-      Placeat labore repellat numquam dolor iure assumenda reiciendis est quos, quasi, accusamus vero ut. Ab modi beatae nam voluptates, quisquam cumque ullam voluptatum deserunt! Repellendus porro ratione possimus consequatur magnam?
-      Totam eveniet ipsum odit commodi accusantium! Quos quaerat fugiat quo id ducimus, deserunt qui ullam consectetur, laboriosam ab delectus doloremque? Placeat corporis officiis tempore odit temporibus, voluptatum omnis maxime aperiam.</p>
-    </section>
+
   </main>
 </div>
 </div>
